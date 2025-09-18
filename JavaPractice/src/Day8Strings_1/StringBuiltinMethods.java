@@ -76,8 +76,8 @@ public class StringBuiltinMethods {
 	  //substring ---extract substring from main string
 	  s="welcome";
 	  
-	  System.out.println(s.substring(1,3));
-	  System.out.println(s.substring(0,5));
+	  System.out.println(s.substring(1,3));//el
+	  System.out.println(s.substring(0,5));//welco
 	  
 	  System.out.println("-----------------toUpperCase(),toLowerCase()-----------------------------------");
 	  //toUpperCase(),toLowerCase()--converts the case

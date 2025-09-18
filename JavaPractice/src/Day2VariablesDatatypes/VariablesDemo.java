@@ -38,6 +38,7 @@ public class VariablesDemo {
 		 System.out.println("b = "+b);//b = 2
 		 System.out.println("c = "+c);//c = 3
 		 System.out.println(a+" "+b+" "+c);//1 2 3
+		 System.out.println(1+"4"+5);//145
 	}
 
 }

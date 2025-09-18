@@ -20,7 +20,7 @@ public class SwitchCaseDemo {
 		case 7 :System.out.println("Saturday");
                 break;
         default:System.out.println("Invalid week number");
-               //return;
+               //return ;
         	
 		}
       System.out.println("Done.....");

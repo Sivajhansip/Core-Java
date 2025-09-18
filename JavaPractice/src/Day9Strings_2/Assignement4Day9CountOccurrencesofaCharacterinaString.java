@@ -5,9 +5,10 @@ public class Assignement4Day9CountOccurrencesofaCharacterinaString {
 	public static void main(String[] args) {
 		String s="madam";
 		int total_count=s.length();
-		int total_count_after_remove=s.replace("a", "").length();
+		int total_count_after_remove=s.replace("d", "").length();
 		
-		System.out.println("Total number of occurence of m is : "+(total_count-total_count_after_remove));
+		System.out.println("Total number of occurence of d is : "+(total_count-total_count_after_remove));
+		System.out.println(s);
 
 	}
 }

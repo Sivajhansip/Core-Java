@@ -18,18 +18,18 @@ public class StringclassDemoRA {
 		//String a="HELLO";//using literal
 		//String a =new String("Hello");//using object
 		String a="Hello World! ";
-		System.out.println(a.charAt(1));
-		System.out.println(a.indexOf("o"));
-        System.out.println(a.substring(0, 5));
-        System.out.println(a.substring(6));
-        System.out.println(a.concat("1"));
-        System.out.println(a.trim());
-        System.out.println(a.toUpperCase());
-        System.out.println(a.toLowerCase());
+		System.out.println(a.charAt(1));//e
+		System.out.println(a.indexOf("o"));//4
+        System.out.println(a.substring(0, 5));//Hello
+        System.out.println(a.substring(6));//World!
+        System.out.println(a.concat("1"));//Hello World! 1
+        System.out.println(a.trim());//Hello World!
+        System.out.println(a.toUpperCase());//HELLO WORLD!
+        System.out.println(a.toLowerCase());//hello world!
         //split
         String arr[]=a.split(" ");
-        System.out.println(arr[0]);
-        System.out.println(arr[1]);
+        System.out.println(arr[0]);//Hello
+        System.out.println(arr[1]);//World
         
 	}
 

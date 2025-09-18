@@ -1,0 +1,21 @@
+package AccessModifiers.Pack1;
+import AccessModifiers.Pack1.Test1;
+public class Test2 {
+
+	public static void main(String[] args) {
+		Test1 t=new Test1();
+		System.out.println(t.x1);// Accessing the public field
+		t.m4();// Accessing the public method
+		
+
+	}
+}
+
+public class Test2 extends Test1{
+	public static void main(String[] args) {
+		Test1 t=new Test1();
+		System.out.println(t.y);
+		t.m3();
+	}
+}
+

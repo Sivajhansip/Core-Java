@@ -5,9 +5,9 @@ public class CallbyReference {
 	public static void main(String[] args) {
 		Test test=new Test();
 		test.number=100;
-		System.out.println("Value of number before passing object to method :"+test.number);
-		test.m2(test);
-		System.out.println("Value of number after passing object to method :"+test.number);
+		System.out.println("Value of number before passing object to method :"+test.number);//100
+		test.m2(test);//110
+		System.out.println("Value of number after passing object to method :"+test.number);//110
 
 	}
 

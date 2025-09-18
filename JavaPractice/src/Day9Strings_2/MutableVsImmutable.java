@@ -15,6 +15,8 @@ public class MutableVsImmutable {
 		System.out.println(Arrays.toString(a));//[20, 40, 50, 60, 70]
 		
 		
+		
+		
 
 	}
 

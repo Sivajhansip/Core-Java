@@ -10,11 +10,15 @@ package AccessModifiers.Pack1;
 
 	}
 }*/
+
 public class Test2 extends Test1{
 	public static void main(String[] args) {
 		Test1 t=new Test1();
 		System.out.println(t.y);
 		t.m3();
+		t.m2();
+		t.m4();
+		
 	}
 }
 

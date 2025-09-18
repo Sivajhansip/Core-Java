@@ -1,0 +1,14 @@
+package Day9Strings_2;
+
+public class Assignement4Day9CountOccurrencesofaCharacterinaString {
+
+	public static void main(String[] args) {
+		String s="madam";
+		int total_count=s.length();
+		int total_count_after_remove=s.replace("m", "").length();
+		
+		System.out.println("Total number of occurence of m is : "+(total_count-total_count_after_remove));
+		System.out.println(s);
+
+	}
+}

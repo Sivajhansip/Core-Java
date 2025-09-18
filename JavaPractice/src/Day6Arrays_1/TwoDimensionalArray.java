@@ -38,15 +38,15 @@ public class TwoDimensionalArray {
 	   //Read Multiple elements from array
 	   for(int i=0;i<a.length;i++) {
 		   for(int j=0;j<a[i].length;j++) {
-			   System.out.println(a[i][j]);
+			   System.out.print(a[i][j]+" ");
 		   }
+		   System.out.println();
 	   }
 	   
 	   //Enhanced for loops
 	   for(int arr[]:a) { //first iteration(FI) arr=[100,200],SI arr=[300,400] TI arr=[500,600]
 		   for(int i:arr) {//Each value from arr is assigned individually to i and value get printed in console sequentially
-			   System.out.println(i);
-			   
+			   System.out.print(i+" ");
 		   }
 		   System.out.println();
 	   }

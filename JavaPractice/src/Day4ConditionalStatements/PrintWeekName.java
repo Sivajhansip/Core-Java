@@ -4,7 +4,7 @@ public class PrintWeekName {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		int weekno=2;
+		int weekno=9;
 		if(weekno==1) {
 		System.out.println("Monday");
 		}

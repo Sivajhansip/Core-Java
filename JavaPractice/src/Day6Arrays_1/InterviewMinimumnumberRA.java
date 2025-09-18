@@ -38,7 +38,7 @@ public class InterviewMinimumnumberRA {
 		 Step-3 : Find the Maximum value in column number of step-2
 		
 		 */
-		/* own practice
+		// own practice
 		int b[][]= {{1,4,5},{3,0,9},{5,10,1}};
 		int mincolumn=0;
 		int min_value=b[0][0];
@@ -50,14 +50,18 @@ public class InterviewMinimumnumberRA {
 					}
 			}
 		}
+		System.out.println(min_value);
+		System.out.println(mincolumn);
 		int Maxcolumn_value=b[0][mincolumn];
+		System.out.println(Maxcolumn_value);
 		for(int i=0;i<3;i++) {
 			if(b[i][mincolumn] > Maxcolumn_value) {
 				Maxcolumn_value=b[i][mincolumn];
 				
 			}
-		}*/
-		//from tutorial
+		}
+		System.out.println(Maxcolumn_value);
+		/*//from tutorial
 		int b[][]= {{1,4,5},{3,0,9},{5,10,1}};
 		int mincolumn=0;
 		int min_value=b[0][0];
@@ -78,7 +82,7 @@ public class InterviewMinimumnumberRA {
 			k++;
 			
 		}
-		System.out.println("Maximum column value : "+Maxcolumn_value);
+		System.out.println("Maximum column value : "+Maxcolumn_value);*/
 
 	}
 

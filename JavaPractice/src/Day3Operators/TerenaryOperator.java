@@ -19,7 +19,9 @@ public class TerenaryOperator {
 		int x=(1==1)?100:200;
 		System.out.println(x);//100
 		
-		
+		//ex:4
+		String y=(1!=1)?"True":"False";
+		System.out.println(y);
 
 	}
 

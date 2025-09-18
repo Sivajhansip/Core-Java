@@ -16,10 +16,10 @@ public class WrapperClassesDemo {
 	    Character cobj=c;
 	    Boolean bobj=b;
 	    
-	    System.out.println(iobj);
-	    System.out.println(dobj);
-	    System.out.println(cobj);
-	    System.out.println(bobj);
+	    System.out.println(iobj);//10
+	    System.out.println(dobj);//10.0
+	    System.out.println(cobj);//a
+	    System.out.println(bobj);//true
 	    
 	    //Converting object type to primitive type --- unboxing
 	    int a1=iobj;
@@ -27,10 +27,10 @@ public class WrapperClassesDemo {
 	    char a3=cobj;
 	    boolean a4=bobj;
 	    
-	    System.out.println(a1);
-	    System.out.println(a2);
-	    System.out.println(a3);
-	    System.out.println(a4);
+	    System.out.println(a1);//10
+	    System.out.println(a2);//10.0
+	    System.out.println(a3);//a
+	    System.out.println(a4);//true
 
 	}
 

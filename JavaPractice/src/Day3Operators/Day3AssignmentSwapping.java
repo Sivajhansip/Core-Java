@@ -34,7 +34,7 @@ public class Day3AssignmentSwapping {
 		
 		//logic-5 single statement
 		int a4=10,b4=20;
-		b4=(a4+b4)-(a4=b4);
+		b4=(a4+b4)-(a4=b4);/*(10+20)-(10)=(30-10)=20//b4=10,a4=20*/
 		System.out.println("After swapping a4: "+a4+" ,"+"b4: "+b4);
 		
 		

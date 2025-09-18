@@ -3,7 +3,7 @@ package Day4ConditionalStatements;
 public class IfelseCondition {
 
 	public static void main(String[] args) {
-		int person_age=23;
+		int person_age=16;
 		if (person_age>=18) {
 		System.out.println("Eligible for vote");
 		}

@@ -1,7 +1,7 @@
 package Day16InterfaceAbstractClass;
 interface Shape{
-	int length=10;
-	int width=20;
+	static int length=10;
+	static int width=20;
 	
 	void circle();//abstract method
 	
